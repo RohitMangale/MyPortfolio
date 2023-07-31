@@ -1,0 +1,18 @@
+$color:#e472d59a;
+
+
+
+@keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba($color, 0.3),
+        0 0 0 3px rgba($color, 0.3),
+        0 0 0 5px rgba($color, 0.3),
+        0 0 0 7px rgba($color, 0.3);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba($color, 0.3),
+        0 0 0 6px rgba($color, 0.3),
+        0 0 0 25px rgba($color, 0),
+        0 0 0 40px rgba($color, 0);
+    }
+}
