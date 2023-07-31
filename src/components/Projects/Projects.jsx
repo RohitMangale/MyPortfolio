@@ -38,7 +38,7 @@ const Projects = () => {
             <div className='tabTitle'>Project Name</div>
             <p>Aug 2022</p>
           </div>
-          <img className='proImg4' src="https://www.amazing7.com/images/blog_pages-cover.jpg" alt="" />
+          <img className='proImg4' src="https://themeforest.img.customer.envatousercontent.com/files/456669783/preview/04_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=def14bb0857632b500a4370009b71857" alt="" />
         </div>
 
       </div>
