@@ -54,6 +54,7 @@
   color: #ffffff;
   font-family: "ClashDisplay-Medium";
   margin: 0;
+  text-decoration: none;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
@@ -67,7 +68,7 @@
   padding-left: 8px;
 }
 .proTab .proGap {
-  width: 300px;
+  width: 400px;
   align-self: start;
 }
 
@@ -75,7 +76,7 @@
   width: 550px;
   height: 300px;
   object-fit: cover;
-  object-position: center;
+  object-position: left;
   border-radius: 30px;
 }
 
@@ -91,7 +92,7 @@
   height: 450px;
   object-fit: cover;
 
-  object-position: center;
+  object-position: top;
   position: relative;
   border-radius: 30px;
   z-index: 5;
@@ -128,17 +129,6 @@
   left: 0;
 }
 
-.tabText3:before {
-  content: "";
-  position: absolute;
-  width: 250px;
-  height: 300px;
-  z-index: 10;
-  background-image: url("../../assets/dotsv.png");
-  background-size: contain;
-  right: -80%;
-  bottom: -90%;
-}
 
 .proTab .tabText2 {
   z-index: 10;
@@ -178,12 +168,25 @@
   z-index: 10;
 }
 
+.tabText3:before {
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  z-index: 10;
+  background-image: url("../../assets/dotsv.png");
+  background-size: contain;
+  right: -200%;
+  bottom: -120%;
+}
+
+
 .proTab .proImg4 {
   max-width: 100%;
-  width: 100%;
+  width: 60%;
   height: 300px;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
   border-radius: 30px;
 }
 
@@ -218,6 +221,15 @@
     margin-right: 0 !important;
     text-align: right;
   }
+  
+.proTab .tabTitle {
+  font-size: 35px;
+
+}
+.proTab p {
+  font-size: 25px;
+
+}
 
   .proTab .proGap {
     width: 200px;
@@ -230,9 +242,9 @@
     width: 200px;
     height: 200px;
     z-index: 10;
-    background-image: url("../../assets/dotsv.jpeg");
+    background-image: url("../../assets/dotsv.png");
     background-size: cover;
-    right: -20%;
+    right: -200%;
     bottom: -100%;
   }
   .proWrapper::before {
@@ -254,7 +266,7 @@
     width: 200px;
     height: 200px;
     z-index: 10;
-    background-image: url("../../assets/dotsh.jpeg");
+    background-image: url("../../assets/dotsh.png");
     background-size: cover;
     top: 0;
     left: 0;
@@ -262,15 +274,14 @@
   .protab2:after {
     content: "";
     position: absolute;
-    width: 215px;
-    height: 280px;
+    width: 120px;
+    height: 200px;
     z-index: 10;
     background-image: url("../../assets/d_arrow.png");
     background-size: contain;
     background-repeat: no-repeat;
     bottom: -50px;
     left: 0;
-    display: none;
   }
   .proWrapper::after {
     content: "";
@@ -327,9 +338,9 @@
     width: 150px;
     height: 150px;
     z-index: 10;
-    background-image: url("../../assets/dotsv.jpeg");
+    background-image: url("../../assets/dotsv.png");
     background-size: cover;
-    right: -80%;
+    right: -150%;
     bottom: -120%;
   }
 }
@@ -337,7 +348,8 @@
 @media (max-width: 750px) {
   .proTab .tabText4::after,
   .tabText3:before,
-  .protab2:before {
+  .protab2:before,
+  .protab2:after {
     display: none;
   }
   .proTab .proImg1,

@@ -24,10 +24,10 @@ const Footer = () => {
           <div className="folIcons">
 
             <div>
-              <a href="">
+              <a target='_blank' href='mailto:rohitmangale010@gmail.com'>
                 <BiLogoGmail />
               </a>
-              <a href="">
+              <a target='_blank' href="https://github.com/RohitMangale">
                 <TbBrandGithubFilled />
               </a>
 
@@ -37,13 +37,13 @@ const Footer = () => {
             </div>
 
             <div>
-              <a className='hide' href="">
+              <a target='_blank' href="https://www.linkedin.com/in/rohit-mangale-77214624a">
                 <FaLinkedinIn />
               </a>
               <a href="">
                 <BsDiscord />
               </a>
-              <a href="">
+              <a className='hide' href="">
                 <AiFillInstagram />
               </a>
             </div>

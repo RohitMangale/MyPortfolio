@@ -16,8 +16,8 @@ const About = () => {
 
         <div className="aboutText">
         <div className='Title abTitle'>About <br /> me</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatum vitae nostrum, illo officia nemo eius minima provident harum rerum modi, hic eaque ea quidem optio. Sit eius necessitatibus ex neque, ad, dolore beatae dolorem vel expedita ipsam enim natus?</p>
-        <Link to="contact" className="button">Contact Me</Link>
+        <p>I am Rohit Mangale, a web developer with expertise in front-end and back-end development. I create visually appealing and functional websites using HTML, CSS, JavaScript, and other modern web technologies. Check out my portfolio for a glimpse of my work!</p>
+        <Link  smooth  to="contact" className="button">Contact Me</Link>
         </div>
       </div>
     </div>

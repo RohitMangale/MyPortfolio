@@ -4,7 +4,7 @@ import './Ripple.scss'
 import ContentWrapper from "../ContentWrapper/ContentWrapper";
 import dwn from "../../assets/dwn.png";
 import pngaaa from "../../assets/me.png";
-import cv from "../../assets/braces.png";
+import cv from "../../assets/resume.pdf";
 import Navbar from '../Navbar/Navbar';
 
 const Intro = () => {
@@ -29,7 +29,7 @@ const Intro = () => {
 
             <img className='me' src={pngaaa} alt="" />
 
-            <a  href={cv} download className='cvBtn' >
+            <a  href={cv} download="Rohit Mangale CV" className='cvBtn' >
               <img src={dwn} alt="" />
               CV
             </a>
