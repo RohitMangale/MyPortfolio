@@ -32,7 +32,7 @@ const Projects = () => {
         <div className="proTab protab3"   >
           <img className='proImg3' src={krypt} alt="" />
           <div className="tabText3">
-            <a target='_blank' href='#' className='tabTitle'> Krypt </a>
+            <a target='_blank' href='https://kryptonite-five.vercel.app/' className='tabTitle'> Krypt </a>
             <p>May 2023</p>
           </div>
         </div>
