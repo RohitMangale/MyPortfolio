@@ -108,15 +108,14 @@ const Skills = () => {
                         </div>
 
                         <div className="skDot">
-                        <p></p>
+                        <p>Solidity</p>
                         <div className="skdots">
                             <div></div>
                             <div></div>
                             <div></div>
                             <div></div>
                             <div></div>
-                            <div></div>
-                            <div></div>
+                            
                         </div>
                     </div>
 
