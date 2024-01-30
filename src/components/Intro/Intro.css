@@ -69,8 +69,8 @@
   display: flex;
 }
 .headerImg .me {
-  max-width: 350px;
-  width: 60%;
+  max-width: 650px;
+  width: 65%;
   align-self: self-end;
   margin: 0 auto;
   object-fit: contain;

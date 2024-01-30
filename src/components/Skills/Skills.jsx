@@ -15,7 +15,7 @@ const Skills = () => {
                 <div className="skillTab">
                     <div className="skTab">
                         <div className="skDot">
-                            <p>HTML</p>
+                            <p>HTML/CSS</p>
                             <div className="skdots">
                                 <div></div>
                                 <div></div>
@@ -30,7 +30,7 @@ const Skills = () => {
                         </div>
 
                         <div className="skDot">
-                            <p>CSS</p>
+                            <p>Python</p>
                             <div className="skdots">
                                 <div></div>
                                 <div></div>
@@ -57,7 +57,7 @@ const Skills = () => {
                         </div>
 
                         <div className="skDot">
-                        <p>PHP</p>
+                        <p>PHP/MySQL</p>
                         <div className="skdots">
                             <div></div>
                             <div></div>
@@ -67,7 +67,7 @@ const Skills = () => {
                     </div>
 
                     <div className="skDot">
-                        <p>MySql</p>
+                        <p>C/C++</p>
                         <div className="skdots">
                             <div></div>
                             <div></div>
@@ -84,7 +84,7 @@ const Skills = () => {
                     <div className="skTab">
 
                         <div className="skDot">
-                            <p>React</p>
+                            <p>MERN</p>
                             <div className="skdots">
                                 <div></div>
                                 <div></div>
@@ -108,7 +108,7 @@ const Skills = () => {
                         </div>
 
                         <div className="skDot">
-                        <p>Bootstrap</p>
+                        <p></p>
                         <div className="skdots">
                             <div></div>
                             <div></div>
@@ -121,7 +121,7 @@ const Skills = () => {
                     </div>
 
                     <div className="skDot">
-                        <p>Tailwind</p>
+                        <p>Numpy</p>
                         <div className="skdots">
                             <div></div>
                             <div></div>
@@ -133,7 +133,7 @@ const Skills = () => {
                     </div>
 
                         <div className="skDot">
-                            <p>Solidity</p>
+                            <p>Pandas</p>
                             <div className="skdots">
                                 <div></div>
                                 <div></div>
