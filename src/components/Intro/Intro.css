@@ -1,6 +1,6 @@
 .intro {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 0;
   margin: 0;
   background-color: #0f0e13;
@@ -276,6 +276,10 @@
 
 @media (max-width: 550px) {
 
+  .intro {
+    height: 100vh;
+    justify-content: flex-end;
+  }
   .headerImg {
     width: 90%;
     height: 350px;
@@ -284,7 +288,7 @@
   }
   .headerImg .me {
     max-width: 350px;
-    width: 50%;
+    width: 65%;
 
   }
   .cvBtn {
@@ -313,7 +317,7 @@
     font-size: 60px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 430px) {
   .headerImg {
     width: 90%;
     height: 300px;
@@ -322,7 +326,7 @@
   }
   .headerImg .me {
     max-width: 350px;
-    width: 55%;
+    width: 70%;
 
   }
 }

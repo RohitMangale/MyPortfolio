@@ -4,7 +4,7 @@ import './Ripple.scss'
 import ContentWrapper from "../ContentWrapper/ContentWrapper";
 import dwn from "../../assets/dwn.png";
 import pngaaa from "../../assets/mypic9.png";
-import cv from "../../assets/Rohit_CV.pdf";
+import cv from "../../assets/RohitMangale_CV.pdf";
 import Navbar from '../Navbar/Navbar';
 
 const Intro = () => {

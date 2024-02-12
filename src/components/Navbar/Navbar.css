@@ -55,6 +55,11 @@
     .navlinks {
       gap: 20px;
     }
+    .navbar {
+
+      padding: 5px 30px;
+
+    }
       
   .navlinks p {
     color: #a5a5a5;
@@ -66,13 +71,11 @@
   
 
   }
-/*   
-  @media (max-width: 720px) {
-    .navlinks {
-      display: none;
-    }
   
-  } */
+  @media (max-width: 720px) {
+
+  
+  }
   
   @media (max-width: 550px) {
     .navbar{
