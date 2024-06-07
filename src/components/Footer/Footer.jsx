@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="policies">
-          <p>2023 © Rohit Mangale All rights reserved</p>
+          <p>2024 © Rohit Mangale All rights reserved</p>
 
 
         </div>
