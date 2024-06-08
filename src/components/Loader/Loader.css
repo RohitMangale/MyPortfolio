@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" href="/public/rm_logo.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio - Rohit Mangale</title>
-</head>
-<style>
 .loaderbg {
   width: 100vw;
   top: 0;
@@ -79,20 +69,3 @@ to {
   transform: translate(-50%, -50%) rotate(360deg);
 }
 }
-</style>
-
-<body>
-  <div id="root">
-    <div class="loaderbg">
-      <div class="loader">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
-
-</html>

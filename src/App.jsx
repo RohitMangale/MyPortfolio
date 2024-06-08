@@ -1,28 +1,37 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
-import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Skills from './components/Skills/Skills'
-import Navbar from './components/Navbar/Navbar'
+import Loader from './components/Loader/Loader'
 
 
 function App() {
 
+
+  // const [isLoading, setIsLoading] = useState(true); // Initial loading state
+
+  // useEffect(() => {
+  //   // Simulate loading time with a timeout
+  //   const timeoutId = setTimeout(() => {
+  //     setIsLoading(false); // Set loading to false after 1.5 seconds
+  //   }, 1500);
+
+  //   // Cleanup function to clear the timeout on component unmount
+  //   return () => clearTimeout(timeoutId);
+  // }, []);
+
   return (
-    <div className="App">
-    <Intro/>
-    <About/>
-    <Skills/>
-    <Projects/>
-    {/*
-
-      <Contact/> 
-    */}
-      <Footer/>
-
-     </div>
+     <div className="App">
+    {/* { isLoading ? <Loader/> : <> */}
+     <Intro />
+      <About />
+      <Skills />
+      <Projects />
+      <Footer />
+      {/* </div>// </>} */}
+    </div>
   )
 }
 
