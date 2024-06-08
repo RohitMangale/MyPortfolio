@@ -10,27 +10,27 @@ import Loader from './components/Loader/Loader'
 function App() {
 
 
-  // const [isLoading, setIsLoading] = useState(true); // Initial loading state
+  const [isLoading, setIsLoading] = useState(true); // Initial loading state
 
-  // useEffect(() => {
-  //   // Simulate loading time with a timeout
-  //   const timeoutId = setTimeout(() => {
-  //     setIsLoading(false); // Set loading to false after 1.5 seconds
-  //   }, 1500);
+  useEffect(() => {
+    // Simulate loading time with a timeout
+    const timeoutId = setTimeout(() => {
+      setIsLoading(false); // Set loading to false after 1.5 seconds
+    }, 1500);
 
-  //   // Cleanup function to clear the timeout on component unmount
-  //   return () => clearTimeout(timeoutId);
-  // }, []);
+    // Cleanup function to clear the timeout on component unmount
+    return () => clearTimeout(timeoutId);
+  }, []);
 
   return (
      <div className="App">
-    {/* { isLoading ? <Loader/> : <> */}
+    { isLoading ? <Loader/> : <> 
      <Intro />
       <About />
       <Skills />
       <Projects />
       <Footer />
-      {/* </div>// </>} */}
+      </>} 
     </div>
   )
 }
