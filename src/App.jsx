@@ -16,7 +16,7 @@ function App() {
     // Simulate loading time with a timeout
     const timeoutId = setTimeout(() => {
       setIsLoading(false); // Set loading to false after 1.5 seconds
-    }, 1500);
+    }, 2500);
 
     // Cleanup function to clear the timeout on component unmount
     return () => clearTimeout(timeoutId);
