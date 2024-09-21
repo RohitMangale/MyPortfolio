@@ -110,7 +110,7 @@
   gap: 40px;
 }
 
-.footLinks p {
+.footLinks .link {
   color: #a5a5a5;
   font-size: 16px;
   font-weight: normal;
@@ -118,8 +118,9 @@
   padding: 0;
   cursor: pointer;
 }
-.footLinks p .active{
+.footLinks .link:hover{
   color: #fff;
+  transition: 3s;
 }
 
 .policies {

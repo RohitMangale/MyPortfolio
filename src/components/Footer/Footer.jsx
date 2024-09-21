@@ -59,24 +59,14 @@ const Footer = () => {
           <div className='footname'>Rohit Mangale</div>
           <div className="footLinks">
 
-            <p>
-              <Link activeClass="active" smooth  to="home">Home</Link>
-            </p>
+              <Link className="link" smooth  to="home">Home</Link>
 
-            <p>
-              <Link activeClass="active" smooth  to="about">About</Link>
-            </p>
-            <p>
-              <Link activeClass="active" smooth  to="skills">Skills</Link>
-            </p>
+              <Link className="link" smooth  to="about">About</Link>
+              <Link className="link" smooth  to="skills">Skills</Link>
 
-            <p>
-              <Link activeClass="active" smooth  to="projects">Projects</Link>
-            </p>
+              <Link className="link" smooth  to="projects">Projects</Link>
 
-            <p>
-              <Link activeClass="active" smooth  to="contact" >Contact</Link>
-            </p>
+              <Link className="link" smooth  to="contact" >Contact</Link>
 
           </div>
         </div>

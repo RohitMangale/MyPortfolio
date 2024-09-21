@@ -28,6 +28,7 @@
     justify-content: space-between;
     align-items: center;
     /* margin-top: 20px; */
+    padding: 16px 0;
     gap: 40px;
   }
   
@@ -38,12 +39,23 @@
     padding: 0;
     cursor: pointer;
   }
-  
-  .navlinks .active{
-    color: #ffffff;
+    
+  .navlinks .link {
+    color: #a5a5a5;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0;
+    cursor: pointer;
+  }
+    
+  .navlinks .link:hover {
+    color:#fff;
+    transition: 1000ms;
+  }
+  .navlinks .link:active {
+    color:#fff;
   }
   
-
   @media (max-width: 1000px) {
     .myName {
       font-size: 20px;
@@ -62,7 +74,7 @@
 
     }
       
-  .navlinks p {
+  .navlinks .links {
     color: #a5a5a5;
     font-size: 14px;
     font-weight: normal;

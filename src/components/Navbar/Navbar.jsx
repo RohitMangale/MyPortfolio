@@ -10,21 +10,12 @@ const Navbar = () => {
     <div className='myName' >Rohit Mangale</div>
 
     <div className="navlinks">
-      <p>
-        <Link activeClass="active" smooth  to="home">Home</Link>
-      </p>
-      <p>
-        <Link activeClass="active" smooth  to="about">About</Link>
-      </p>
-      <p>
-        <Link activeClass="active" smooth  to="skills">Skills</Link>
-      </p>
-      <p>
-        <Link activeClass="active" smooth to="projects">Projects</Link>
-      </p>
-      <p>
-        <Link activeClass="active" smooth  to="contact" >Contact</Link>
-      </p>
+      
+      <Link className="link" activeClass="active" smooth  to="home">Home</Link>
+      <Link  className="link"  smooth  to="about">About</Link>
+        <Link className="link" smooth  to="skills">Skills</Link>
+        <Link className="link" smooth to="projects">Projects</Link>
+        <Link className="link" smooth  to="contact" >Contact</Link>
     </div>
 
   </div>
